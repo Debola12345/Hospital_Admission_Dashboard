@@ -1,10 +1,10 @@
-# Analyzing Sales and Profit Data - Tableau Superstore
+# Hospital Admission Dashboard - Tableau 
 
 ---
+![Tableau Screenshot 2024-10-26 145649](https://github.com/user-attachments/assets/266e825e-ad6b-4c86-afee-22878c3e1a73)
 
-![S & P Dashboard](https://github.com/user-attachments/assets/629b88a9-8749-4e87-ab4e-e64be5653001)
 ---
-[Click to view the dashboard](link-to-dashboard)
+[view the dashboard](https://public.tableau.com/app/profile/adebola.ogundipe/viz/HospitalAdmissionsDashboard2_tableau/AdmissionsDashboard?publish=yes)
 
 ## Project Overview
 
