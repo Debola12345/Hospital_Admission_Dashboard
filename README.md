@@ -8,25 +8,25 @@
 
 ## Project Overview
 
-This project focuses on analyzing the sales and profit data of Tableau's Superstore dataset, which contains information about a fictional retail company. The goal is to identify trends in sales and profitability across various product sub-categories providing insights into the store's performance and potential areas for improvement.
+This project provides an in-depth analysis of hospital admissions, patient demographics, and healthcare trends. The objective is to gain insights into patient profiles, admission patterns, and outcomes to support strategic decision-making in hospital management. By exploring demographics, admission sources, diagnoses, and insurance coverage, we aim to identify factors influencing hospital length of stay and patient admissions.
 
 ---
 
 ## Objective(s)
 
 The key objectives of this analysis are:
-- To identify the yearly top-performing product categories and subcategories in terms of sales and profit.
-- To analyze profit margins across different subcategories.
-- To provide actionable insights for improving the store’s overall profitability.
-
+- To understand the demographics of admitted patients, particularly focusing on age, ethnicity, and admission patterns.
+- To analyze hospital admissions by various attributes, including time, source, and type of admission.
+- To explore relationships between patient demographics, diagnosis types, and hospital length of stay.
 ---
 
 ## Dataset(s)
 
-The **Tableau Superstore** dataset includes a variety of fields related to sales, customer information, and product performance:
+The **Hospital Admissions** dataset is a comprehensive hospital admissions dataset related to admission information, patients demographics and outcomes:
+
 - **Source**: Public dataset provided by Tableau.
-- **Size**: ~10,000 transactions across different product categories, customer segments, and regions.
-- **Features**: Order ID, product name, category, sub-category, sales, profit, discount, shipping cost, customer name, region, and order date.
+- **Size**: 5,700 total admissions across different admittime and discharge time.
+- **Features**: Age, ethnicity, insurance, admittime, dischtime, diagnosis, ED, admission type, discharge location...
 
 The dataset was pre-cleaned and prepared in SQL, with minor data processing done in tableau for further analysis.
 
@@ -36,39 +36,32 @@ The dataset was pre-cleaned and prepared in SQL, with minor data processing done
 
 This project utilized the following tools and technologies:
 - **Tableau**: For interactive dashboard creation and data visualization.
-- **SQL**: For data cleaning
+- **SQL**: For data cleaning and extraction.
+- **Excel**: For preliminary analysis
 
 ---
 
 ## Methodology
 
-1. **Data Cleaning**: Ensured that the dataset was free from null values and duplicated entries. Filtered data based on sales dates to focus on the most recent years.
-2. **Descriptive Analysis**: Generated summary statistics to provide an overview of sales, profit, and discount trends.
-3. **Segmentation**: Conducted an analysis by segmenting customers by product subcategories.
-4. **Profitability Analysis**: Analyzed the profit margins at the category levels, identifying low-margin product groups.
-5. **Visualization**: Created Tableau dashboards to highlight sales performance by year, month and week, profit trends over time, and top-selling products.
+1. **Data Cleaning**: Ensured that the dataset was free from null values and duplicated entries.
+2. **Descriptive Analysis**: Generated summary statistics to provide an overview of admissions, demographics, and diagnostic trends.
+3. **Emergency Department Metrics**: Assessed admissions originating from the ED and their impact on overall length of stay.
+4. **Visualization**: Created Tableau dashboards to highlight trends over the years.
 
 ---
 
 ## Results & Insights
 
 Key insights derived from the analysis:
-- **Top Categories**: Technology and Office Supplies were the most profitable categories, contributing the largest share of total sales.
-- **Trends**: Monthly sales generally trend upwards
-
----
-
-## Challenges
-
-The main challenge in this project was handling the impact of discounts on profit margins
+- **Demographic Insights**: Analysis revealed the largest proportion of admissions was among white patients, with a higher number of male patients compared to female patients.
+- **Trends**: Majority of the patients **(43%)** were covered by private insurance, influencing the revenue structure.
 
 ---
 
 ## Conclusion & Next Steps
 
-This analysis provided valuable insights into the performance of Tableau's Superstore dataset, highlighting key product categories, regions, and customer segments that contribute to overall profitability. 
+This analysis highlights key trends in hospital admissions, demographics, and length of stay, revealing significant differences across age groups, ethnicity, and admission types. These insights can help inform resource allocation, improve patient care strategies, and support efficient discharge planning. Additionally, understanding insurance distribution and ED-related patterns provides valuable input for hospital administration and policy improvement.
 
 ## References
 
-- [Tableau Superstore Dataset](https://public.tableau.com/s/sites/default/files/media/tableau-superstore-data.zip) – Publicly available dataset.
 - Tableau resources and documentation for interactive dashboards and data visualization.
